@@ -41,3 +41,6 @@ python make_video.py --audio voice.mp3 --script example_script.txt --title "AI �
 - edge-tts 是在线服务，个人使用免费；规模化商业变现前建议换 ElevenLabs 或本地开源方案。
 - 字幕按「句」切分，单段默认 ≤16 字，避免竖屏溢出。
 - 发布频率注意平台规则，避免被判定营销号。
+
+## 示例 Demo
+- `examples/simaguang.html`：纯前端 Canvas 动画《司马光砸缸》，六幕自动循环播放，含 edge-tts 语音旁白与一键导出视频，零依赖，浏览器直接打开。
